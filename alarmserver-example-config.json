@@ -1,0 +1,54 @@
+{
+    "alarmserver": {
+	"maxevents": 10,
+	"maxallevents": 100,
+	"listenport": 3000,
+
+	// Name of your parition(s)
+	"partitions": {
+	    "partition1": "Home"
+	},
+
+	// Zone names. Delete the zones you"re not using to have them hidden.
+	// Add more zoneXX if you need more zones
+	"zones": {
+	    "zone1": "A",
+	    "zone2": "B",
+	    "zone3": "C",
+	    "zone4": "D",
+	    "zone5": "E",
+	    "zone6": "F",
+	    "zone7": "G",
+	    "zone8": "H",
+	    "zone9": "I",
+	    "zone10": "J",
+	    "zone11": "K"
+	    "zone12": "L"
+	    "zone13": "M"
+	    "zone14": "N"
+	    "zone15": "O"
+	    "zone16": "P"
+	},
+
+	// Pretty names for the user ids that arm/disarm alarm.
+	"users": {
+	    "user1": "MyUser1",
+	    "user2": "MyUser2",
+	    "user3": "MyUser3"
+	}
+    },
+    "envisalink": {
+	"host": "envisalink",
+	"port": 4025,
+	"password": "user",
+	
+	//Interval in seconds in which to send poll command to envisalink.
+	//Default is zero which means do not issue polling commands, this
+	//should be fine in most scenarios
+	//pollinterval=0
+
+	// Alarm code: If defined you can disarm the alarm without having to
+	// enter a code.
+	"alarmcode": "1111"
+    }
+}

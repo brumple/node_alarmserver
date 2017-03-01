@@ -1,0 +1,30 @@
+{
+  "name": "alarmserver",
+  "version": "0.1.0",
+  "description": "EnvisaLink Application",
+  "main": "./lib/alarmserver.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "PLMsh": "./test.js"
+  },
+  "dependencies": {
+    "express": "4.14.1"
+  },
+  "bugs": {
+    "url": "https://github.com/brumple/node-alarmserver/issues",
+    "email": "brian.rumple@wolfpacksoftwaresolutions.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brumple/node-alarmserver.git"
+  },
+  "keywords": [
+    "Vista 20p",
+    "EnvisaLink",
+    "EVL-3"
+  ],
+  "author": "Brian Rumple",
+  "license": "BSD"
+}
